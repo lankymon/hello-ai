@@ -10,3 +10,9 @@ from src.hello_ai.math_ops import vector_length, add_vectors
 
 print("length of vector [3,4]:", vector_length([3,4]))
 print("adding vectors [1,2] and [3,4]:", add_vectors([1,2], [3,4]))
+
+
+from src.hello_ai.tensor_ops import tensor_info, add_tensors
+
+print("Tensor info for [1.0, 2.0, 3.0, 4.0]:", tensor_info([1.0, 2.0, 3.0, 4.0]))
+print("Adding tensors [1.0, 2.0] and [3.0, 4.0]:", add_tensors([1.0, 2.0], [3.0, 4.0]))
